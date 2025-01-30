@@ -4,6 +4,6 @@ function insert_Row() {
 	let row = table.insertRow(0);
 	for(let i = 0;i<2;i++){
 		let cell = row.insertCell(i);
-		cell.innerHTML = `New Cell ${i+1}`
+		cell.innerHTML = `New Cell${i+1}`
 	}
 }
